@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ai"
+version = "0.1.0"
+description = ""
+authors = ["Marco Manduca <marco.manduca95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+numpy = "^1.26.2"
+torch = "^2.1.1"
+torchvision = "^0.16.1"
+scipy = "^1.11.4"
+jupyter = "^1.0.0"
+notebook = "^7.0.6"
+docker = "^7.0.0"
+kubernetes = "^28.1.0"
+keras = "2.15"
+seaborn = "^0.13.2"
+tensorflow-macos = "^2.15.0"
+tensorflow-metal = "^1.1.0"
+scikit-learn = "^1.4.0"
+pyarrow = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
