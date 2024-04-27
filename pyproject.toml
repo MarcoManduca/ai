@@ -2,7 +2,7 @@
 name = "ai"
 version = "0.1.0"
 description = ""
-authors = ["Marco Manduca <marco.manduca95@gmail.com>"]
+authors = ["Marco Manduca <marco.manduca95@gmail.com>", "Marco Manduca <manducamarco@icloud.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -23,11 +23,7 @@ notebook = "^7.0.6"
 jupyter = "^1.0.0"
 docker = "^7.0.0"
 kubernetes = "^28.1.0"
-kaggle = "^1.6.6"
-google-cloud-storage = "^2.16.0"
-google-cloud-api-keys = "^0.5.9"
-google-api-python-client = "^2.124.0"
-oauth2client = "^4.1.3"
+pymongo = "^4.7.0"
 
 
 [build-system]
